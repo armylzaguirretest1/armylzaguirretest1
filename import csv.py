@@ -40,3 +40,5 @@ with open(args.file, 'r') as csvfile:
         filename = "{}_{}_{}_{}_{}{}".format(correspondent_id,external_id,client_document_id,document_type,description,content_type)
         downloadFile(correspondent_id, args.env, args.token, client_document_id, filename)
         print (filename)
+
+UPDATE FILE
